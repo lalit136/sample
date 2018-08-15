@@ -1,0 +1,97 @@
+{
+  "prefixs": {},
+  "screenName": "Lol",
+  "fields": [
+    {
+      "locator": "messageElementName",
+      "type": "inputField",
+      "prompts": [
+        "Message Element Name"
+      ]
+    },
+    {
+      "locator": "description",
+      "type": "inputField",
+      "prompts": [
+        "Description"
+      ]
+    },
+    {
+      "locator": "j_idt62",
+      "type": "checkBox",
+      "prompts": [
+        "Valid only"
+      ]
+    },
+    {
+      "locator": "technicalSegment",
+      "type": "checkBox",
+      "prompts": [
+        "Segment technique"
+      ]
+    },
+    {
+      "locator": "identifier",
+      "type": "checkBox",
+      "prompts": [
+        "Identifiant technique"
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "locator": "dataTableResults",
+      "headers": [
+        {
+          "headerArray": [
+            " Identifier",
+            " Description",
+            " Validation Status",
+            " Datatype"
+          ],
+          "type": "SimpleHeader"
+        }
+      ],
+      "availableActions": [
+        "StoreTableValue",
+        "metTableAction"
+      ]
+    }
+  ],
+  "availableValidatePages": [
+    {
+      "type": "sbfactbutton",
+      "name": "Create"
+    },
+    {
+      "type": "sbfactbutton",
+      "name": "Retour"
+    },
+    {
+      "type": "sbfactbutton",
+      "name": "Search"
+    },
+    {
+      "type": "sbflinkbutton",
+      "name": "zxc (link)"
+    }
+  ],
+  "availableNextPages": [
+    {
+      "type": "sbfactbutton",
+      "name": "Create"
+    },
+    {
+      "type": "sbfactbutton",
+      "name": "Retour"
+    },
+    {
+      "type": "sbfactbutton",
+      "name": "Search"
+    },
+    {
+      "type": "sbflinkbutton",
+      "name": "zxc (link)"
+    }
+  ]
+}
