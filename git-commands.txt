@@ -1,0 +1,7 @@
+git init
+git add *
+git add <Directory>OR<File>
+git rm --cached <file> (Need -r on directory)
+
+
+https://github.com/lmohan/lmohan.git
